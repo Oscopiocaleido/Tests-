@@ -41,7 +41,7 @@ int main(){
 
     int seconds = lightSync(arr, n);
 
-    cout<<"Todos los bombillos se encenderan al mismo tiempo en "<<seconds<<" segundos";
+    cout<<"All the LED bulbs will light up at the same time on "<<seconds<<" seconds";
     delete [] arr;
     return 0;
 }
